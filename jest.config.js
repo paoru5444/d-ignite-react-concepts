@@ -72,15 +72,15 @@ module.exports = {
 
   // An array of file extensions your modules use
   moduleFileExtensions: [
-    "web.js",
-    "js",
-    "web.ts",
-    "ts",
-    "web.tsx",
     "tsx",
-    "json",
-    "web.jsx",
+    "ts",
+    "web.ts",
+    "web.tsx",
+    "js",
     "jsx",
+    "web.js",
+    "web.jsx",
+    "json",
     "node"
   ],
 
