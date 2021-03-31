@@ -53,7 +53,13 @@ export function TaskList() {
   }
 
   function handleRemoveTask(id: number) {
-    // Remova uma task da listagem pelo ID
+    const selectedTask = taskCherryPicker(id);
+    const newTasks = tasks.filter((task: Task) => {
+      if (task.id !== selectedTask.id) {
+        return task
+      }
+    })
+    setTasks(newTasks)
   }
 
   return (
